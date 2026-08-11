@@ -113,5 +113,54 @@ export const legalPagesData = {
         <li><strong>Complete Transparency:</strong> Fully compliant with Google AdSense, GDPR, CCPA, and global publishing guidelines.</li>
       </ul>
     `
+  },
+  'exam-calendar': {
+    title: "Government Exam Calendar 2026",
+    lastUpdated: "August 11, 2026",
+    content: `
+      <h2>Upcoming Government Recruitment Exam Dates & Schedule</h2>
+      <p>Stay ahead in your exam preparation with our compiled schedule of tentative and confirmed exam dates for major Central and State Government commissions in 2026:</p>
+      
+      <ul>
+        <li><strong>SSC CGL 2026 Tier 1 Exam:</strong> Expected September - October 2026</li>
+        <li><strong>UPSC Civil Services Prelims 2026:</strong> May 24, 2026</li>
+        <li><strong>RRB NTPC CBT 1 Exam:</strong> October - November 2026</li>
+        <li><strong>IBPS PO Prelims Exam:</strong> October 2026</li>
+        <li><strong>SBI Clerk Prelims Exam:</strong> November 2026</li>
+        <li><strong>CTET December 2026 Exam:</strong> December 2026</li>
+      </ul>
+    `
+  },
+  'faq': {
+    title: "Frequently Asked Questions (FAQ)",
+    lastUpdated: "August 11, 2026",
+    content: `
+      <h2>Frequently Asked Questions About Govt Rojgar Updates</h2>
+      
+      <h3>1. Is Govt Rojgar Updates an official government website?</h3>
+      <p>No. Govt Rojgar Updates is an independent informational and educational portal. We compile and explain recruitment notifications released by official bodies like SSC, UPSC, RRB, and IBPS.</p>
+
+      <h3>2. How often are recruitment guides updated?</h3>
+      <p>Our editorial team updates job guides daily whenever official notification PDFs, admit cards, exam schedules, or answer keys are released by recruitment commissions.</p>
+
+      <h3>3. Are the job alert email subscriptions free?</h3>
+      <p>Yes, 100% free! You will never be charged for receiving email notifications or accessing our exam guides and syllabus breakdowns.</p>
+    `
+  },
+  'careers': {
+    title: "Careers & Editorial Desk",
+    lastUpdated: "August 11, 2026",
+    content: `
+      <h2>Join the Govt Rojgar Editorial Team</h2>
+      <p>Are you passionate about competitive exams, educational journalism, and helping millions of job aspirants across India? We are always looking for talented content researchers, subject matter experts, and educational editors.</p>
+
+      <h2>Current Openings</h2>
+      <ul>
+        <li><strong>Senior Subject Matter Expert (Quant & Reasoning):</strong> Full-time / Remote</li>
+        <li><strong>Government Recruitment Research Analyst (SSC & UPSC):</strong> Full-time / Remote</li>
+        <li><strong>Proofreader & Technical Editor:</strong> Part-time / Remote</li>
+      </ul>
+      <p>To apply, send your CV and writing samples to <strong>careers@govtrojgarupdates.in</strong>.</p>
+    `
   }
 };

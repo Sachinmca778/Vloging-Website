@@ -118,6 +118,9 @@ export function Footer({ onNavigateLegal, onNavigateContact, onNavigateSection }
               <li><a href="/legal/privacy-policy" onClick={(e) => { e.preventDefault(); onNavigateLegal('privacy-policy'); }}>Privacy Policy</a></li>
               <li><a href="/legal/terms-and-conditions" onClick={(e) => { e.preventDefault(); onNavigateLegal('terms-and-conditions'); }}>Terms & Conditions</a></li>
               <li><a href="/legal/disclaimer" onClick={(e) => { e.preventDefault(); onNavigateLegal('disclaimer'); }}>Disclaimer</a></li>
+              <li><a href="/legal/exam-calendar" onClick={(e) => { e.preventDefault(); onNavigateLegal('exam-calendar'); }}>Exam Calendar 2026</a></li>
+              <li><a href="/legal/faq" onClick={(e) => { e.preventDefault(); onNavigateLegal('faq'); }}>FAQ</a></li>
+              <li><a href="/legal/careers" onClick={(e) => { e.preventDefault(); onNavigateLegal('careers'); }}>Careers & Editorial Desk</a></li>
             </ul>
           </div>
         </div>
