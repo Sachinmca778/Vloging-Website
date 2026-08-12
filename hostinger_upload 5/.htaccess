@@ -1,22 +1,7 @@
 Options -MultiViews
 RewriteEngine On
 
-# 1. Direct Static File Header Rules for ads.txt & sitemap.xml
-<Files "ads.txt">
-  Header always set Content-Type "text/plain; charset=UTF-8"
-  Header always set Access-Control-Allow-Origin "*"
-</Files>
-
-<Files "sitemap.xml">
-  Header always set Content-Type "application/xml; charset=UTF-8"
-  Header always set Access-Control-Allow-Origin "*"
-</Files>
-
-<Files "robots.txt">
-  Header always set Content-Type "text/plain; charset=UTF-8"
-</Files>
-
-# 2. Complete Security Headers for 100% Security Score
+# 1. Complete Security Headers with "Header always set" for 100% Security Score
 <IfModule mod_headers.c>
   Header always set Content-Security-Policy "default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://googleads.g.doubleclick.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https:;"
   Header always set X-Content-Type-Options "nosniff"
@@ -27,7 +12,7 @@ RewriteEngine On
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 </IfModule>
 
-# 3. Browser Caching Rules for Performance Score
+# 2. Browser Caching Rules for Performance Score
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/jpg "access plus 1 year"
@@ -43,12 +28,12 @@ RewriteEngine On
   ExpiresDefault "access plus 2 days"
 </IfModule>
 
-# 4. Gzip Deflate Compression for Speed Performance
+# 3. Gzip Deflate Compression for Speed Performance
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
 </IfModule>
 
-# 5. SPA React Client-Side Fallback Routing
+# 4. SPA React Client-Side Fallback Routing
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.html [QSA,L]

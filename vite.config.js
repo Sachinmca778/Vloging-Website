@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    minify: true,
+    cssMinify: true,
+    cssCodeSplit: true,
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
